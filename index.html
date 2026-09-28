@@ -1,0 +1,1786 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OBSIDIAN AUTO LAB | Luxury Detailing, PPF & Ceramic Coating Studio</title>
+  <meta name="description" content="State-of-the-art automotive detailing studio specializing in Paint Protection Film (PPF), 10H Ceramic Coatings, multi-stage paint correction, and prestige vehicle detailing.">
+
+  <!-- Favicon SVG -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><polygon points='50,5 95,25 95,75 50,95 5,75 5,25' fill='%23080a0f' stroke='%2300d2ff' stroke-width='4'/><polygon points='50,20 80,35 80,65 50,80 20,65 20,35' fill='none' stroke='%23ffffff' stroke-width='2'/><circle cx='50' cy='50' r='10' fill='%2300d2ff'/></svg>">
+
+  <!-- Google Fonts: Plus Jakarta Sans & Outfit & Space Grotesk -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- FontAwesome Icons for crisp automotive icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- TOP ANNOUNCEMENT BAR -->
+  <div class="top-bar">
+    <div class="container top-bar-inner">
+      <div class="top-bar-left">
+        <span class="live-dot"></span>
+        <span class="top-status-text">Studio Open &bull; Taking Bookings for This Week &bull; Max 2 Vehicles Per Day</span>
+      </div>
+      <div class="top-bar-right">
+        <a href="tel:+18005558989" class="top-contact-link"><i class="fa-solid fa-phone"></i> +1 (800) 555-8989</a>
+        <span class="divider">|</span>
+        <a href="https://wa.me/18005558989?text=Hello%20Obsidian%20Auto%20Lab,%20I%20would%20like%20to%20inquire%20about%20a%20detailing%20/%20PPF%20booking." target="_blank" rel="noopener" class="top-contact-link highlight"><i class="fa-brands fa-whatsapp"></i> WhatsApp VIP Desk</a>
+        <span class="divider">|</span>
+        <span class="top-location"><i class="fa-solid fa-location-dot"></i> Luxury Auto District, Suite 400</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- NAVIGATION BAR -->
+  <header class="navbar-header" id="navbar">
+    <div class="container navbar-container">
+      <a href="#hero" class="brand-logo" aria-label="Obsidian Auto Lab Home">
+        <div class="logo-emblem">
+          <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <polygon points="50,6 94,27 94,73 50,94 6,73 6,27" stroke="url(#cyanGlow)" stroke-width="3.5" fill="#0E121A"/>
+            <polygon points="50,22 78,36 78,64 50,78 22,64 22,36" stroke="rgba(255,255,255,0.7)" stroke-width="1.5" fill="none"/>
+            <path d="M50 34L64 50L50 66L36 50Z" fill="url(#cyanFill)"/>
+            <defs>
+              <linearGradient id="cyanGlow" x1="0" y1="0" x2="100" y2="100" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#00D2FF"/>
+                <stop offset="1" stop-color="#0066FF"/>
+              </linearGradient>
+              <linearGradient id="cyanFill" x1="36" y1="34" x2="64" y2="66" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#00F0FF"/>
+                <stop offset="1" stop-color="#0066FF"/>
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+        <div class="logo-text-block">
+          <span class="brand-name">OBSIDIAN</span>
+          <span class="brand-sub">AUTO LAB &bull; PPF &bull; CERAMIC</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav Menu -->
+      <nav class="desktop-nav" aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="#interactive-stage" class="nav-link">Transformation</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#ppf-feature" class="nav-link">PPF Studio</a></li>
+          <li><a href="#ceramic-feature" class="nav-link">Ceramic 10H</a></li>
+          <li><a href="#before-after" class="nav-link">Before & After</a></li>
+          <li><a href="#process" class="nav-link">Process</a></li>
+          <li><a href="#packages" class="nav-link">Packages</a></li>
+          <li><a href="#gallery" class="nav-link">Gallery</a></li>
+        </ul>
+      </nav>
+
+      <!-- Nav Actions -->
+      <div class="nav-actions">
+        <a href="https://wa.me/18005558989?text=Hello%20Obsidian%20Auto%20Lab,%20I'd%20like%20to%20check%20availability%20for%20my%20vehicle." target="_blank" rel="noopener" class="btn btn-whatsapp-icon" title="Chat on WhatsApp" aria-label="WhatsApp">
+          <i class="fa-brands fa-whatsapp"></i>
+        </a>
+        <a href="#booking" class="btn btn-primary nav-book-btn">
+          <span>Book Your Car</span>
+          <i class="fa-solid fa-arrow-right"></i>
+        </a>
+        <!-- Mobile Menu Toggle -->
+        <button class="mobile-toggle" id="mobileMenuBtn" aria-label="Toggle Navigation Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer Menu -->
+    <div class="mobile-drawer" id="mobileDrawer">
+      <div class="mobile-drawer-header">
+        <span class="mobile-logo-text">OBSIDIAN AUTO LAB</span>
+        <button class="close-drawer-btn" id="closeDrawerBtn">&times;</button>
+      </div>
+      <ul class="mobile-nav-links">
+        <li><a href="#interactive-stage" class="mobile-link">Transformation Experience</a></li>
+        <li><a href="#services" class="mobile-link">Complete Car Care Services</a></li>
+        <li><a href="#ppf-feature" class="mobile-link">Paint Protection Film (PPF)</a></li>
+        <li><a href="#ceramic-feature" class="mobile-link">Ceramic & Graphene 10H</a></li>
+        <li><a href="#before-after" class="mobile-link">Interactive Before & After</a></li>
+        <li><a href="#process" class="mobile-link">Our 5-Stage Process</a></li>
+        <li><a href="#packages" class="mobile-link">Service Packages</a></li>
+        <li><a href="#gallery" class="mobile-link">Cars We've Transformed</a></li>
+        <li><a href="#booking" class="mobile-link highlight-link">Book Studio Consultation</a></li>
+      </ul>
+      <div class="mobile-drawer-footer">
+        <a href="https://wa.me/18005558989" class="btn btn-whatsapp full-width"><i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp</a>
+        <a href="tel:+18005558989" class="btn btn-outline full-width"><i class="fa-solid fa-phone"></i> Call Studio (+1 800-555-8989)</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero-section" id="hero">
+    <!-- Cinematic Dark Background Layers -->
+    <div class="hero-bg-overlay"></div>
+    <div class="hero-radial-glow"></div>
+    <div class="hero-grid-pattern"></div>
+    <div class="hero-light-beam"></div>
+
+    <div class="container hero-container">
+      <div class="hero-content">
+        <!-- Sub-Pill / Pill Badge -->
+        <div class="hero-badge animate-fade-down">
+          <span class="badge-icon"><i class="fa-solid fa-shield-halved"></i></span>
+          <span class="badge-text">PPF &bull; Ceramic Coating &bull; Detailing &bull; Paint Correction &bull; Premium Wash</span>
+        </div>
+
+        <!-- Large Headline -->
+        <h1 class="hero-title animate-fade-up">
+          <span class="title-line">More Than A Car Wash.</span>
+          <span class="title-line gradient-text">Protection. Perfection. Prestige.</span>
+        </h1>
+
+        <!-- Supporting Text -->
+        <p class="hero-description animate-fade-up delay-1">
+          Premium car detailing, self-healing paint protection film, optical ceramic coatings, and surgical paint correction engineered for Porsche, BMW, Mercedes-AMG, Audi, and exotic automobiles.
+        </p>
+
+        <!-- CTAs -->
+        <div class="hero-cta-group animate-fade-up delay-2">
+          <a href="#booking" class="btn btn-primary btn-lg pulse-glow">
+            <span>Book Your Car</span>
+            <i class="fa-solid fa-calendar-check"></i>
+          </a>
+          <a href="#services" class="btn btn-outline btn-lg">
+            <span>Explore Services</span>
+            <i class="fa-solid fa-layer-group"></i>
+          </a>
+          <a href="https://wa.me/18005558989?text=Hello%20Obsidian%20Auto%20Lab,%20I%20would%20like%20a%20quote%20for%20my%20car." target="_blank" rel="noopener" class="btn btn-whatsapp-hero">
+            <i class="fa-brands fa-whatsapp"></i>
+            <span>WhatsApp Us</span>
+          </a>
+        </div>
+
+        <!-- Metric Badges -->
+        <div class="hero-metrics animate-fade-up delay-3">
+          <div class="metric-item">
+            <span class="metric-number">99.4<small>%</small></span>
+            <span class="metric-label">Swirl Removal Rate</span>
+          </div>
+          <div class="metric-separator"></div>
+          <div class="metric-item">
+            <span class="metric-number">10<small>H</small></span>
+            <span class="metric-label">Ceramic Hardness</span>
+          </div>
+          <div class="metric-separator"></div>
+          <div class="metric-item">
+            <span class="metric-number">10<small>YR</small></span>
+            <span class="metric-label">TPU Film Warranty</span>
+          </div>
+          <div class="metric-separator"></div>
+          <div class="metric-item">
+            <span class="metric-number">2<small> CARS</small></span>
+            <span class="metric-label">Daily Studio Limit</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero Visual Accent Floating Card -->
+      <div class="hero-visual-card animate-fade-left">
+        <div class="car-preview-window">
+          <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?auto=format&fit=crop&w=1600&q=85" alt="Porsche 911 in dark luxury detailing studio with mirror finish" class="hero-car-img" loading="eager" fetchpriority="high">
+          <div class="scan-laser-line"></div>
+          
+          <div class="overlay-spec-chip chip-top-left">
+            <i class="fa-solid fa-microscope text-cyan"></i>
+            <span>Inspection: 100% Defect-Free</span>
+          </div>
+
+          <div class="overlay-spec-chip chip-bottom-right">
+            <i class="fa-solid fa-shield-virus text-cyan"></i>
+            <span>Protected: 8.5 Mil Optical TPU</span>
+          </div>
+
+          <div class="reflection-gradient"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scroll Indicator -->
+    <a href="#interactive-stage" class="scroll-down-indicator" aria-label="Scroll to interactive experience">
+      <span class="mouse-icon"><span class="wheel"></span></span>
+      <span class="scroll-text">EXPERIENCE THE TRANSFORMATION</span>
+    </a>
+  </section>
+
+  <!-- ============================================== -->
+  <!-- PREMIUM STANDOUT INTERACTIVE ELEMENT           -->
+  <!-- MULTI-STAGE AUTOMOTIVE RESTORATION CONTROLLER   -->
+  <!-- ============================================== -->
+  <section class="interactive-stage-section" id="interactive-stage">
+    <div class="container">
+      <div class="section-header text-center">
+        <div class="section-tag"><i class="fa-solid fa-sliders"></i> INTERACTIVE SURFACE LAB</div>
+        <h2 class="section-title">The Anatomy Of Paint Perfection</h2>
+        <p class="section-subtitle">
+          Experience the microscopic evolution of automotive paintwork. Click each stage or drag the slider to witness how we take swirled, weathered paint to a protected museum-grade mirror reflection.
+        </p>
+      </div>
+
+      <!-- Stage Selector Tabs -->
+      <div class="stage-stepper-nav" role="tablist">
+        <button class="stage-step-btn active" data-stage="1" role="tab" aria-selected="true">
+          <span class="step-num">01</span>
+          <div class="step-meta">
+            <span class="step-title">Untreated Paint</span>
+            <span class="step-sub">Swirls, Oxidation & Etching</span>
+          </div>
+        </button>
+
+        <button class="stage-step-btn" data-stage="2" role="tab" aria-selected="false">
+          <span class="step-num">02</span>
+          <div class="step-meta">
+            <span class="step-title">Paint Correction</span>
+            <span class="step-sub">Jewelling & 95%+ Defect Removal</span>
+          </div>
+        </button>
+
+        <button class="stage-step-btn" data-stage="3" role="tab" aria-selected="false">
+          <span class="step-num">03</span>
+          <div class="step-meta">
+            <span class="step-title">8.5 Mil TPU PPF</span>
+            <span class="step-sub">Self-Healing Impact Barrier</span>
+          </div>
+        </button>
+
+        <button class="stage-step-btn" data-stage="4" role="tab" aria-selected="false">
+          <span class="step-num">04</span>
+          <div class="step-meta">
+            <span class="step-title">10H Ceramic / Mirror</span>
+            <span class="step-sub">Hydrophobic Showroom Finish</span>
+          </div>
+        </button>
+      </div>
+
+      <!-- Interactive Stage Canvas / Showcase Window -->
+      <div class="stage-display-wrapper">
+        <div class="stage-visual-container" id="stageVisualContainer">
+          <!-- Background image changes based on stage -->
+          <img src="https://images.unsplash.com/photo-1601362840469-51e4d8d58785?auto=format&fit=crop&w=1600&q=85" alt="Paintwork surface state" class="stage-main-image" id="stageMainImage">
+
+          <!-- Dynamic Light Sweep / Reflection Overlay -->
+          <div class="stage-reflection-sweep" id="stageSweep"></div>
+
+          <!-- Micro Swirl Simulation Overlay (Shows in Stage 1) -->
+          <div class="swirl-overlay" id="swirlOverlay"></div>
+
+          <!-- Status HUD Badges -->
+          <div class="stage-hud top-left">
+            <div class="hud-pill"><i class="fa-solid fa-eye"></i> Optical View: <strong id="hudStageName">Untreated Paintwork</strong></div>
+            <div class="hud-pill"><i class="fa-solid fa-gauge-simple-high"></i> Surface Gloss Units: <strong id="hudGlossUnits">42 GU</strong></div>
+          </div>
+
+          <div class="stage-hud bottom-right">
+            <div class="hud-pill"><i class="fa-solid fa-droplet text-cyan"></i> Hydrophobic Angle: <strong id="hudContactAngle">45&deg; (Poor)</strong></div>
+            <div class="hud-pill"><i class="fa-solid fa-shield text-cyan"></i> Impact Resistance: <strong id="hudProtectionLevel">None</strong></div>
+          </div>
+
+          <!-- Stage Info Drawer Inside Card -->
+          <div class="stage-description-drawer" id="stageDescriptionDrawer">
+            <div class="drawer-header">
+              <span class="drawer-tag" id="stageBadge">STAGE 01 &bull; UNTREATED</span>
+              <h3 class="drawer-title" id="stageTitle">Factory Clear Coat Under Harsh Daily Exposure</h3>
+            </div>
+            <p class="drawer-body" id="stageDescription">
+              Improper washing, automatic car wash brushes, road tar, and UV radiation create severe spider-web swirls, holograms, water spots, and micro-marring. Sunlight scatters across the damaged clear coat, resulting in a dull, greyish, hazy paint surface.
+            </p>
+            <div class="drawer-specs">
+              <div class="spec-stat">
+                <span class="spec-key">Clear Coat Defect Severity</span>
+                <span class="spec-val high" id="statDefects">High (85% Swirled)</span>
+              </div>
+              <div class="spec-stat">
+                <span class="spec-key">Depth of Reflection</span>
+                <span class="spec-val low" id="statDepth">Flat / Scuffed</span>
+              </div>
+              <div class="spec-stat">
+                <span class="spec-key">Recommended Intervention</span>
+                <span class="spec-val cyan" id="statIntervention">2-Stage Machine Correction</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Controls Bar Under Interactive Element -->
+        <div class="stage-controls-bar">
+          <div class="scrubber-label">
+            <i class="fa-solid fa-arrows-left-right text-cyan"></i>
+            <span>Interactive Progression Controller:</span>
+          </div>
+          <div class="range-slider-container">
+            <input type="range" min="1" max="4" value="1" step="1" id="stageRangeInput" class="custom-range-slider" aria-label="Paint restoration progression stage slider">
+            <div class="slider-ticks">
+              <span>01 Untreated</span>
+              <span>02 Corrected</span>
+              <span>03 PPF Wrapped</span>
+              <span>04 10H Ceramic</span>
+            </div>
+          </div>
+          <button class="btn btn-secondary btn-sm" id="btnNextStage">Next Stage <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================== -->
+  <!-- COMPLETE CAR CARE SERVICES SECTION             -->
+  <!-- ============================================== -->
+  <section class="services-section" id="services">
+    <div class="container">
+      <div class="section-header text-center">
+        <div class="section-tag"><i class="fa-solid fa-wrench"></i> BESPOKE AUTOMOTIVE SERVICES</div>
+        <h2 class="section-title">Complete Car Care. One Studio.</h2>
+        <p class="section-subtitle">
+          From routine detailing to long-term paint protection, everything your vehicle needs under one roof. Executed with surgical precision in a climate-controlled studio.
+        </p>
+      </div>
+
+      <!-- Service Filter Tabs -->
+      <div class="services-filter-bar">
+        <button class="filter-pill active" data-filter="all">All Studio Services (11)</button>
+        <button class="filter-pill" data-filter="protection">PPF &amp; Protective Coatings</button>
+        <button class="filter-pill" data-filter="restoration">Detailing &amp; Paint Correction</button>
+        <button class="filter-pill" data-filter="wash">Safe Washing &amp; Interior</button>
+        <button class="filter-pill" data-filter="specialist">Specialist Treatments</button>
+      </div>
+
+      <!-- Services Grid (11 Required Services) -->
+      <div class="services-grid" id="servicesGrid">
+
+        <!-- 01: Paint Protection Film — PPF -->
+        <div class="service-card" data-category="protection">
+          <div class="service-card-media">
+            <img src="https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?auto=format&fit=crop&w=800&q=85" alt="Technician applying Paint Protection Film" loading="lazy">
+            <div class="service-highlight-badge">Maximum Paint Protection</div>
+            <div class="service-card-icon"><i class="fa-solid fa-shield-halved"></i></div>
+          </div>
+          <div class="service-card-content">
+            <div class="service-cat">Protection &bull; Self-Healing</div>
+            <h3 class="service-name">Paint Protection Film — PPF</h3>
+            <p class="service-desc">
+              Nearly invisible protection against stone chips, scratches, gravel impacts, and everyday road hazards. Engineered with self-healing elastomeric polymers.
+            </p>
+            <ul class="service-bullets">
+              <li><i class="fa-solid fa-check text-cyan"></i> Self-healing scratches under warm heat</li>
+              <li><i class="fa-solid fa-check text-cyan"></i> Precision computer pre-cut patterns (No razor blades)</li>
+              <li><i class="fa-solid fa-check text-cyan"></i> High gloss or stealth matte conversion options</li>
+            </ul>
+            <div class="service-card-footer">
+              <a href="#booking" class="btn-card-inquire" data-service="Paint Protection Film (PPF)">Inquire Service <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 02: Ceramic Coating -->
+        <div class="service-card" data-category="protection">
+          <div class="service-card-media">
+            <img src="https://images.unsplash.com/photo-1508974239320-0a029497e820?auto=format&fit=crop&w=800&q=85" alt="Ceramic coating water beading on car paint" loading="lazy">
+            <div class="service-highlight-badge">Gloss + Hydrophobic Protection</div>
+            <div class="service-card-icon"><i class="fa-solid fa-droplet"></i></div>
+          </div>
+          <div class="service-card-content">
+            <div class="service-cat">Chemical Bonding &bull; 9H/10H</div>
+            <h3 class="service-name">Ceramic Coating</h3>
+            <p class="service-desc">
+              Creates a durable hydrophobic quartz matrix with deep candy gloss and effortless maintenance. Shields against acid rain, UV oxidation, and bird droppings.
+            </p>
+            <ul class="service-bullets">
+              <li><i class="fa-solid fa-check text-cyan"></i> Extreme 115&deg; hydrophobic water beading</li>
+              <li><i class="fa-solid fa-check text-cyan"></i> 3, 5, or 7-Year multi-layer quartz bonding</li>
+              <li><i class="fa-solid fa-check text-cyan"></i> Repels grime, brake dust, and road salt</li>
+            </ul>
+            <div class="service-card-footer">
+              <a href="#booking" class="btn-card-inquire" data-service="Ceramic Coating">Inquire Service <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 03: Premium Car Wash -->
+        <div class="service-card" data-category="wash">
+          <div class="service-card-media">
+            <img src="https://images.unsplash.com/photo-1607860108855-64acf2078ed9?auto=format&fit=crop&w=800&q=85" alt="Snow foam cannon covering luxury sports car" loading="lazy">
+            <div class="service-highlight-badge">Safe Deep Cleaning</div>
+            <div class="service-card-icon"><i class="fa-solid fa-shower"></i></div>
+          </div>
+          <div class="service-card-content">
+            <div class="service-cat">Maintenance &bull; Scratch-Free</div>
+            <h3 class="service-name">Premium Car Wash</h3>
+            <p class="service-desc">
+              Professional exterior decontamination using pH-neutral snow foam, three-bucket wash techniques, DI purified water, and warm filtered air blow drying.
+            </p>
+            <ul class="service-bullets">
+              <li><i class="fa-solid fa-check text-cyan"></i> 100% scratch-free wash mitts &amp; grit guards</li>
+              <li><i class="fa-solid fa-check text-cyan"></i> Iron fallout &amp; brake dust dissolution</li>
+              <li><i class="fa-solid fa-check text-cyan"></i> Door shuts, fuel cap &amp; wheel barrels cleaned</li>
+            </ul>
+            <div class="service-card-footer">
+              <a href="#booking" class="btn-card-inquire" data-service="Premium Car Wash">Inquire Service <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 04: Exterior Detailing -->
+        <div class="service-card" data-category="restoration">
+          <div class="service-card-media">
+            <img src="https://images.unsplash.com/photo-1520340356584-f9917d1eea6f?auto=format&fit=crop&w=800&q=85" alt="Detailer polishing vehicle body panel" loading="lazy">
+            <div class="service-highlight-badge">Restore The Finish</div>
+            <div class="service-card-icon"><i class="fa-solid fa-gem"></i></div>
+          </div>
+          <div class="service-card-content">
+            <div class="service-cat">Rejuvenation &bull; Complete Body</div>
+            <h3 class="service-name">Exterior Detailing</h3>
+            <p class="service-desc">
+              Comprehensive exterior restoration and refinement. Includes synthetic clay decontamination, single-stage gloss enhancement, trim restoration, and protective sealant.
+            </p>
+            <ul class="service-bullets">
+              <li><i class="fa-solid fa-check text-cyan"></i> Clay bar removes embedded industrial fallout</li>
+              <li><i class="fa-solid fa-check text-cyan"></i> Chrome, exhaust tips &amp; piano black trim polished</li>
+              <li><i class="fa-solid fa-check text-cyan"></i> Long-lasting polymer sealant protection</li>
+            </ul>
+            <div class="service-card-footer">
+              <a href="#booking" class="btn-card-inquire" data-service="Exterior Detailing">Inquire Service <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 05: Interior Detailing -->
+        <div class="service-card" data-category="wash">
+          <div class="service-card-media">
+            <img src="https://images.unsplash.com/photo-1563720223185-11003d516935?auto=format&fit=crop&w=800&q=85" alt="Clean luxury car leather interior" loading="lazy">
+            <div class="service-highlight-badge">Deep Interior Cleaning</div>
+            <div class="service-card-icon"><i class="fa-solid fa-couch"></i></div>
+          </div>
+          <div class="service-card-content">
+            <div class="service-cat">Interior &bull; Sanitation &bull; Leather</div>
+            <h3 class="service-name">Interior Detailing</h3>
+            <p class="service-desc">
+              Deep cleaning and restoration of leather seats, Alcantara, dashboard, carpets, and air vents. Steam sanitized and conditioned with OEM matte finishes.
+            </p>
+            <ul class="service-bullets">
+              <li><i class="fa-solid fa-check text-cyan"></i> Heated steam extraction for carpets &amp; upholstery</li>
+              <li><i class="fa-solid fa-check text-cyan"></i> pH-balanced leather conditioning (Zero greasy shine)</li>
+              <li><i class="fa-solid fa-check text-cyan"></i> Ozone odor elimination &amp; antibacterial sanitization</li>
+            </ul>
+            <div class="service-card-footer">
+              <a href="#booking" class="btn-card-inquire" data-service="Interior Detailing">Inquire Service <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 06: Paint Correction -->
+        <div class="service-card" data-category="restoration">
+          <div class="service-card-media">
+            <img src="https://images.unsplash.com/photo-1601362840469-51e4d8d58785?auto=format&fit=crop&w=800&q=85" alt="Machine compounding with dual action polisher" loading="lazy">
+            <div class="service-highlight-badge">Mirror-Like Finish</div>
+            <div class="service-card-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+          </div>
+          <div class="service-card-content">
+            <div class="service-cat">Paintwork &bull; Defect Removal</div>
+            <h3 class="service-name">Paint Correction</h3>
+            <p class="service-desc">
+              Precision dual-action machine polishing removing 85% to 98% of swirl marks, buffer trails, light scratches, oxidation, and bird dropping etchings.
+            </p>
+            <ul class="service-bullets">
+              <li><i class="fa-solid fa-check text-cyan"></i> Ultrasonic digital paint depth gauge profiling</li>
+              <li><i class="fa-solid fa-check text-cyan"></i> 2-Stage &amp; 3-Stage rotary and orbital polishing</li>
+              <li><i class="fa-solid fa-check text-cyan"></i> Deep, authentic optical clarity without fillers</li>
+            </ul>
+            <div class="service-card-footer">
+              <a href="#booking" class="btn-card-inquire" data-service="Paint Correction">Inquire Service <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 07: Graphene / Advanced Coating -->
+        <div class="service-card" data-category="protection">
+          <div class="service-card-media">
+            <img src="https://images.unsplash.com/photo-1544829099-b9a0c07fad1a?auto=format&fit=crop&w=800&q=85" alt="Supercar with intense dark gloss coating" loading="lazy">
+            <div class="service-highlight-badge">Advanced Protection</div>
+            <div class="service-card-icon"><i class="fa-solid fa-atom"></i></div>
+          </div>
+          <div class="service-card-content">
+            <div class="service-cat">Nanotechnology &bull; Thermal Stability</div>
+            <h3 class="service-name">Graphene / Advanced Coating</h3>
+            <p class="service-desc">
+              Next-generation reduced graphene oxide matrix offering increased thermal dispersion, reduced water spotting, superior chemical resistance, and extreme slickness.
+            </p>
+            <ul class="service-bullets">
+              <li><i class="fa-solid fa-check text-cyan"></i> Drastically reduces water spot etchings</li>
+              <li><i class="fa-solid fa-check text-cyan"></i> Anti-static properties repel airborne road dust</li>
+              <li><i class="fa-solid fa-check text-cyan"></i> Resists harsh chemicals (pH 2 to pH 13)</li>
+            </ul>
+            <div class="service-card-footer">
+              <a href="#booking" class="btn-card-inquire" data-service="Graphene Coating">Inquire Service <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 08: Headlight Restoration -->
+        <div class="service-card" data-category="specialist">
+          <div class="service-card-media">
+            <img src="https://images.unsplash.com/photo-1542282088-72c9c27ed0cd?auto=format&fit=crop&w=800&q=85" alt="Restored luxury car crystal headlight" loading="lazy">
+            <div class="service-highlight-badge">Crystal Clarity</div>
+            <div class="service-card-icon"><i class="fa-solid fa-lightbulb"></i></div>
+          </div>
+          <div class="service-card-content">
+            <div class="service-cat">Optics &bull; Night Visibility</div>
+            <h3 class="service-name">Headlight Restoration</h3>
+            <p class="service-desc">
+              Wet-sanding, multi-stage compounding, and UV ceramic sealing to restore yellowed, cloudy, and oxidized polycarbonate headlight lenses to factory clarity.
+            </p>
+            <ul class="service-bullets">
+              <li><i class="fa-solid fa-check text-cyan"></i> Restores full beam output and driving safety</li>
+              <li><i class="fa-solid fa-check text-cyan"></i> Hard-coat UV ceramic cure prevents re-yellowing</li>
+              <li><i class="fa-solid fa-check text-cyan"></i> Cost-effective alternative to lens replacement</li>
+            </ul>
+            <div class="service-card-footer">
+              <a href="#booking" class="btn-card-inquire" data-service="Headlight Restoration">Inquire Service <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 09: Alloy & Tyre Detailing -->
+        <div class="service-card" data-category="specialist">
+          <div class="service-card-media">
+            <img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?auto=format&fit=crop&w=800&q=85" alt="Clean sports car alloy wheel and brake caliper" loading="lazy">
+            <div class="service-highlight-badge">Brake Dust Barrier</div>
+            <div class="service-card-icon"><i class="fa-solid fa-compact-disc"></i></div>
+          </div>
+          <div class="service-card-content">
+            <div class="service-cat">Wheels &bull; Calipers &bull; Tyres</div>
+            <h3 class="service-name">Alloy &amp; Tyre Detailing</h3>
+            <p class="service-desc">
+              Wheels-off or wheels-on deep decontamination, removal of baked-in brake dust, wheel barrel polishing, brake caliper detailing, and high-temp ceramic coating.
+            </p>
+            <ul class="service-bullets">
+              <li><i class="fa-solid fa-check text-cyan"></i> Acid-free iron decontamination on delicate alloys</li>
+              <li><i class="fa-solid fa-check text-cyan"></i> 800&deg;C Heat-resistant wheel ceramic coating</li>
+              <li><i class="fa-solid fa-check text-cyan"></i> OEM satin tyre dressing (No sling)</li>
+            </ul>
+            <div class="service-card-footer">
+              <a href="#booking" class="btn-card-inquire" data-service="Alloy & Tyre Detailing">Inquire Service <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 10: Windshield / Glass Coating -->
+        <div class="service-card" data-category="specialist">
+          <div class="service-card-media">
+            <img src="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=800&q=85" alt="Hydrophobic water droplets sliding off windshield glass" loading="lazy">
+            <div class="service-highlight-badge">Rain Repellency</div>
+            <div class="service-card-icon"><i class="fa-solid fa-cloud-rain"></i></div>
+          </div>
+          <div class="service-card-content">
+            <div class="service-cat">Glass &bull; Hydrophobic Vision</div>
+            <h3 class="service-name">Windshield &amp; Glass Coating</h3>
+            <p class="service-desc">
+              Chemical glass polishing to eliminate wiper marks and mineral stains, followed by hydrophobic fluoropolymer bonding that causes rain to blow off above 40 mph.
+            </p>
+            <ul class="service-bullets">
+              <li><i class="fa-solid fa-check text-cyan"></i> Unlocks crystal clear visibility in severe downpours</li>
+              <li><i class="fa-solid fa-check text-cyan"></i> Prevents ice, insect splatters &amp; wiper chatter</li>
+              <li><i class="fa-solid fa-check text-cyan"></i> Durable 12 to 24 month hydrophobic bonding</li>
+            </ul>
+            <div class="service-card-footer">
+              <a href="#booking" class="btn-card-inquire" data-service="Windshield Coating">Inquire Service <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- 11: Engine Bay Detailing -->
+        <div class="service-card" data-category="specialist">
+          <div class="service-card-media">
+            <img src="https://images.unsplash.com/photo-1517524008697-84bbe3c3fd98?auto=format&fit=crop&w=800&q=85" alt="Immaculate high performance engine bay" loading="lazy">
+            <div class="service-highlight-badge">Factory-Fresh Engine</div>
+            <div class="service-card-icon"><i class="fa-solid fa-gears"></i></div>
+          </div>
+          <div class="service-card-content">
+            <div class="service-cat">Mechanical &bull; Under-Hood Aesthetics</div>
+            <h3 class="service-name">Engine Bay Detailing</h3>
+            <p class="service-desc">
+              Safe, dry-steam and low-moisture degreasing of sensitive engine components, alternator masking, wiring insulation, and OEM matte dressing of hoses and plastics.
+            </p>
+            <ul class="service-bullets">
+              <li><i class="fa-solid fa-check text-cyan"></i> Zero pressure water near electronics or ECUs</li>
+              <li><i class="fa-solid fa-check text-cyan"></i> Removes grease, oil haze &amp; road grime</li>
+              <li><i class="fa-solid fa-check text-cyan"></i> UV dressing protects plastic covers &amp; rubber hoses</li>
+            </ul>
+            <div class="service-card-footer">
+              <a href="#booking" class="btn-card-inquire" data-service="Engine Bay Detailing">Inquire Service <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Quick Action Callout in Services -->
+      <div class="services-callout-banner">
+        <div class="callout-text">
+          <h3>Unsure Which Treatment Your Car Needs?</h3>
+          <p>Bring your vehicle in for a complimentary 20-minute digital paint inspection and paint-depth audit under our studio lighting.</p>
+        </div>
+        <div class="callout-actions">
+          <a href="#booking" class="btn btn-primary">Book Free Paint Assessment</a>
+          <a href="https://wa.me/18005558989?text=Hi%20Obsidian%20Auto%20Lab,%20I'd%20like%20to%20schedule%20a%20free%20paint%20inspection." target="_blank" rel="noopener" class="btn btn-whatsapp"><i class="fa-brands fa-whatsapp"></i> Quick WhatsApp</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================== -->
+  <!-- FEATURED PPF SECTION                           -->
+  <!-- ============================================== -->
+  <section class="ppf-feature-section" id="ppf-feature">
+    <div class="container">
+      <div class="ppf-feature-grid">
+
+        <!-- Left Column: Copy & Tech Details -->
+        <div class="ppf-info-col">
+          <div class="section-tag"><i class="fa-solid fa-shield-cat"></i> ARMOR FOR YOUR PAINT</div>
+          <h2 class="section-title">Protect The Paint.<br><span class="gradient-text">Preserve The Value.</span></h2>
+          <p class="section-lead">
+            Factory paint can never truly be replicated once repainted. Our ultra-clarity Paint Protection Film (PPF) forms an impenetrable, self-healing polyurethane skin that absorbs rock chips, gravel strikes, and parking scuffs before they ever touch your clear coat.
+          </p>
+
+          <!-- Interactive PPF Finish Selector (Gloss vs Stealth Matte) -->
+          <div class="ppf-finish-toggle-box">
+            <span class="toggle-label">Select Finish Preview:</span>
+            <div class="finish-buttons">
+              <button class="finish-btn active" id="btnFinishGloss" data-finish="gloss">
+                <i class="fa-solid fa-sun"></i> Optical Ultra-Gloss
+              </button>
+              <button class="finish-btn" id="btnFinishMatte" data-finish="matte">
+                <i class="fa-solid fa-moon"></i> Stealth Satin-Matte
+              </button>
+            </div>
+            <p class="finish-note" id="finishNote">
+              <i class="fa-solid fa-circle-info text-cyan"></i> <strong>Optical Ultra-Gloss:</strong> Deepens color richness and creates a glass-like finish with zero orange peel distortion.
+            </p>
+          </div>
+
+          <!-- PPF Technical Layers Diagram -->
+          <div class="ppf-layer-breakdown">
+            <h4 class="breakdown-title"><i class="fa-solid fa-layer-group text-cyan"></i> 4-Layer Multi-Stage Architecture:</h4>
+            
+            <div class="layer-item">
+              <div class="layer-bar layer-1"></div>
+              <div class="layer-desc">
+                <strong>01. Self-Healing Top Coat (12 Microns)</strong>
+                <span>Instant scratch recovery under engine heat or sunlight. Hydrophobic &amp; stain resistant.</span>
+              </div>
+            </div>
+
+            <div class="layer-item">
+              <div class="layer-bar layer-2"></div>
+              <div class="layer-desc">
+                <strong>02. Optical-Grade TPU Core (150 Microns)</strong>
+                <span>High-tensile aliphatic polyurethane engineered to dissipate high-velocity stone chip kinetic energy.</span>
+              </div>
+            </div>
+
+            <div class="layer-item">
+              <div class="layer-bar layer-3"></div>
+              <div class="layer-desc">
+                <strong>03. Pressure-Sensitive Copolymer Adhesive (35 Microns)</strong>
+                <span>Ultra-clear mounting layer ensuring zero bubbles, zero yellowing, and 100% clean residue-free removal.</span>
+              </div>
+            </div>
+
+            <div class="layer-item">
+              <div class="layer-bar layer-4"></div>
+              <div class="layer-desc">
+                <strong>04. Factory OEM Clear Coat &amp; Automotive Paint</strong>
+                <span>Preserved in untouched factory condition, retaining maximum collector &amp; resale value.</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Benefits Checklist -->
+          <div class="ppf-benefits-grid">
+            <div class="benefit-card">
+              <i class="fa-solid fa-meteor text-cyan"></i>
+              <h5>Stone-Chip Protection</h5>
+              <p>Stops high-speed gravel impacts on freeways and tracks.</p>
+            </div>
+            <div class="benefit-card">
+              <i class="fa-solid fa-fire-flame-simple text-cyan"></i>
+              <h5>Self-Healing Surface</h5>
+              <p>Micro-scratches and swirls vanish when warm water or sun is applied.</p>
+            </div>
+            <div class="benefit-card">
+              <i class="fa-solid fa-sun text-cyan"></i>
+              <h5>100% UV &amp; Chemical Shield</h5>
+              <p>Eliminates fading, bug etchings, bird acid, and oxidation.</p>
+            </div>
+            <div class="benefit-card">
+              <i class="fa-solid fa-fingerprint text-cyan"></i>
+              <h5>Digital CAD Pre-Cut Patterns</h5>
+              <p>Tailored specifically to your vehicle's panels. No cutting on paint.</p>
+            </div>
+          </div>
+
+          <div class="ppf-actions">
+            <a href="#booking" class="btn btn-primary btn-lg" data-service="Paint Protection Film (PPF)">
+              <span>Get PPF Consultation</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+            <a href="https://wa.me/18005558989?text=Hello,%20I'm%20interested%20in%20PPF%20coverage%20for%20my%20car." target="_blank" rel="noopener" class="btn btn-whatsapp btn-lg">
+              <i class="fa-brands fa-whatsapp"></i> Chat With PPF Specialist
+            </a>
+          </div>
+        </div>
+
+        <!-- Right Column: Interactive Visual Showcase -->
+        <div class="ppf-visual-col">
+          <div class="ppf-showcase-card" id="ppfShowcaseCard">
+            <!-- Dynamic PPF Image (Switches between Gloss & Matte) -->
+            <img src="https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?auto=format&fit=crop&w=1400&q=85" alt="Precision PPF installation on luxury car bumper" class="ppf-photo" id="ppfPhoto">
+            
+            <div class="ppf-badge-floating">
+              <span class="pulse-ring"></span>
+              <i class="fa-solid fa-shield-check text-cyan"></i>
+              <span id="ppfCurrentBadgeText">Optical Ultra-Gloss &bull; 8.5 Mil TPU</span>
+            </div>
+
+            <!-- Interactive Heat Self-Healing Demo Trigger -->
+            <div class="self-healing-box">
+              <div class="sh-header">
+                <i class="fa-solid fa-temperature-arrow-up text-cyan"></i>
+                <span>Simulate Heat Self-Healing</span>
+              </div>
+              <button class="btn btn-secondary btn-sm" id="btnSimulateHeal">
+                <i class="fa-solid fa-wand-magic-sparkles"></i> Apply Heat &bull; Heal Scratches
+              </button>
+              <div class="sh-progress-bar" id="shProgressBar"><div class="fill"></div></div>
+              <p class="sh-status" id="shStatus">Status: Polyurethane at resting temperature (22&deg;C)</p>
+            </div>
+
+            <div class="ppf-coverage-card">
+              <span class="cov-title">Available Studio Coverage Packages:</span>
+              <div class="cov-tags">
+                <span class="cov-pill">Front Bumper &amp; Hood (Track Pack)</span>
+                <span class="cov-pill">High-Impact Areas</span>
+                <span class="cov-pill highlight">Full Body Wrap (Ultimate Armor)</span>
+                <span class="cov-pill">Interior Console &amp; Screen PPF</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================== -->
+  <!-- CERAMIC COATING SECTION                        -->
+  <!-- ============================================== -->
+  <section class="ceramic-feature-section" id="ceramic-feature">
+    <div class="ceramic-bg-water"></div>
+    <div class="container">
+      <div class="section-header text-center">
+        <div class="section-tag"><i class="fa-solid fa-gem"></i> MOLECULAR QUARTZ PROTECTION</div>
+        <h2 class="section-title">Gloss You Can See.<br><span class="gradient-text">Protection You Can Feel.</span></h2>
+        <p class="section-subtitle">
+          Engineered at the nano-scale, our certified 10H ceramic coatings bond cross-linked silicon dioxide (SiO2) directly to your clear coat, forming a semi-permanent glass shield with hyper-gloss reflections and extreme water repellence.
+        </p>
+      </div>
+
+      <!-- Ceramic Water Contact Angle Simulator -->
+      <div class="ceramic-interactive-card">
+        <div class="ceramic-sim-grid">
+          
+          <div class="ceramic-sim-media">
+            <div class="water-bead-visual">
+              <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1200&q=85" alt="Hydrophobic water beading on protected ceramic paint" class="ceramic-img" id="ceramicWaterImg">
+              
+              <div class="contact-angle-diagram" id="angleDiagram">
+                <div class="angle-circle">
+                  <span class="angle-degree" id="beadAngleText">118&deg;</span>
+                  <span class="angle-label">Contact Angle</span>
+                </div>
+              </div>
+
+              <div class="bead-status-pill">
+                <span class="status-indicator active"></span>
+                <span id="beadStatusLabel">Ultra-Hydrophobic Lotus Effect Active</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="ceramic-sim-controls">
+            <h3 class="sim-title">Hydrophobic Performance Test</h3>
+            <p class="sim-text">
+              The rounder the water droplet (higher contact angle), the less surface tension it has with your car. Dirt and road grime get swept away effortlessly when water rolls off.
+            </p>
+
+            <div class="surface-type-selector">
+              <button class="surface-btn" data-surface="untreated">
+                <span class="s-name">Untreated Paint</span>
+                <span class="s-angle">45&deg; (Flat Sheets)</span>
+              </button>
+              <button class="surface-btn" data-surface="wax">
+                <span class="s-name">Traditional Wax</span>
+                <span class="s-angle">75&deg; (Fades in weeks)</span>
+              </button>
+              <button class="surface-btn active" data-surface="ceramic">
+                <span class="s-name">10H Ceramic Matrix</span>
+                <span class="s-angle">118&deg; (Spherical Beads)</span>
+              </button>
+            </div>
+
+            <div class="coating-benefits-list">
+              <div class="c-benefit">
+                <i class="fa-solid fa-sparkles text-cyan"></i>
+                <div>
+                  <strong>Wet Mirror Deep Reflection</strong>
+                  <span>Gives paint a candy-like gloss that looks perpetually freshly polished.</span>
+                </div>
+              </div>
+              <div class="c-benefit">
+                <i class="fa-solid fa-soap text-cyan"></i>
+                <div>
+                  <strong>70% Faster Washing &amp; Maintenance</strong>
+                  <span>Mud, brake dust, and bug splatters slide off with gentle water pressure.</span>
+                </div>
+              </div>
+              <div class="c-benefit">
+                <i class="fa-solid fa-shield-virus text-cyan"></i>
+                <div>
+                  <strong>Chemical &amp; Environmental Immunity</strong>
+                  <span>Blocks bird drop acids, tree sap, road salt, and harsh detergents (pH 2 - pH 13).</span>
+                </div>
+              </div>
+              <div class="c-benefit">
+                <i class="fa-solid fa-clock text-cyan"></i>
+                <div>
+                  <strong>Years Of Durability &bull; Not Months</strong>
+                  <span>True molecular cross-linkage that will not wash off or evaporate.</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="ceramic-cta-row">
+              <a href="#booking" class="btn btn-primary" data-service="Ceramic Coating">
+                <span>Ask About Ceramic Coating</span>
+                <i class="fa-solid fa-calendar-check"></i>
+              </a>
+              <a href="https://wa.me/18005558989?text=Hi%20Obsidian%20Auto%20Lab,%20I'd%20like%20to%20know%20more%20about%20your%20Ceramic%20Coating%20packages." target="_blank" rel="noopener" class="btn btn-whatsapp">
+                <i class="fa-brands fa-whatsapp"></i> WhatsApp Quote
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================== -->
+  <!-- BEFORE & AFTER TRANSFORMATION SECTION          -->
+  <!-- ============================================== -->
+  <section class="before-after-section" id="before-after">
+    <div class="container">
+      <div class="section-header text-center">
+        <div class="section-tag"><i class="fa-solid fa-arrows-split-up-and-left"></i> PROOF OF CRAFTSMANSHIP</div>
+        <h2 class="section-title">The Difference Is In The Detail.</h2>
+        <p class="section-subtitle">
+          Real automotive transformations from our studio floor. Drag the slider to inspect the exact before-and-after results our certified master detailers achieve.
+        </p>
+      </div>
+
+      <!-- Case Study Selector Tabs -->
+      <div class="comparison-tabs">
+        <button class="comp-tab active" data-case="swirls">
+          <i class="fa-solid fa-wand-magic-sparkles"></i>
+          <span>Swirl Marks &rarr; Paint Corrected</span>
+        </button>
+        <button class="comp-tab" data-case="wash">
+          <i class="fa-solid fa-shower"></i>
+          <span>Dirty Road Grime &rarr; Detailed</span>
+        </button>
+        <button class="comp-tab" data-case="ceramic">
+          <i class="fa-solid fa-gem"></i>
+          <span>Dull Factory Paint &rarr; Ceramic Coated</span>
+        </button>
+        <button class="comp-tab" data-case="headlight">
+          <i class="fa-solid fa-lightbulb"></i>
+          <span>Old Cloudy Lens &rarr; Restored Headlight</span>
+        </button>
+        <button class="comp-tab" data-case="interior">
+          <i class="fa-solid fa-couch"></i>
+          <span>Soiled Leather &rarr; Steam Restored</span>
+        </button>
+      </div>
+
+      <!-- Interactive Draggable Slider Container -->
+      <div class="slider-showcase-box">
+        <div class="ba-slider-container" id="baSliderContainer">
+          
+          <!-- AFTER Image (Underneath) -->
+          <div class="ba-image-layer after-layer">
+            <img src="https://images.unsplash.com/photo-1520340356584-f9917d1eea6f?auto=format&fit=crop&w=1600&q=85" alt="After treatment flawless mirror car paint" id="baAfterImage">
+            <span class="ba-label label-after"><i class="fa-solid fa-sparkles"></i> AFTER &bull; OBSIDIAN LAB</span>
+          </div>
+
+          <!-- BEFORE Image (Clipped on top) -->
+          <div class="ba-image-layer before-layer" id="baBeforeLayer" style="width: 50%;">
+            <img src="https://images.unsplash.com/photo-1601362840469-51e4d8d58785?auto=format&fit=crop&w=1600&q=85" alt="Before treatment swirled distressed paint" id="baBeforeImage">
+            <span class="ba-label label-before"><i class="fa-solid fa-triangle-exclamation"></i> BEFORE &bull; WEATHERED</span>
+          </div>
+
+          <!-- Draggable Divider Bar & Handle -->
+          <div class="ba-handle-line" id="baHandle" style="left: 50%;">
+            <div class="ba-handle-knob" aria-label="Drag before and after comparison slider" role="slider" aria-valuenow="50" tabindex="0">
+              <i class="fa-solid fa-chevron-left"></i>
+              <i class="fa-solid fa-chevron-right"></i>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Slider Meta Caption -->
+        <div class="ba-caption-card">
+          <div class="caption-left">
+            <span class="caption-car-badge" id="baVehicleBadge">Porsche 911 GT3 &bull; Basalt Black Metallic</span>
+            <h4 class="caption-title" id="baTreatmentTitle">Severe Swirl Marks &amp; Holograms to 100% Mirror Reflection</h4>
+            <p class="caption-text" id="baTreatmentDesc">
+              Removed 15 years of improper brush washing swirls using a 2-stage rotary compound followed by Rupes orbital jewelling polish. Zero fillers used; authentic optical clarity restored.
+            </p>
+          </div>
+          <div class="caption-right">
+            <a href="#booking" class="btn btn-outline" id="baBookBtn">Book This Treatment</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================== -->
+  <!-- WHY CHOOSE US (PRECISION PILLARS)              -->
+  <!-- ============================================== -->
+  <section class="why-us-section" id="why-us">
+    <div class="container">
+      <div class="section-header text-center">
+        <div class="section-tag"><i class="fa-solid fa-medal"></i> UNCOMPROMISING STANDARDS</div>
+        <h2 class="section-title">Your Car Deserves Better Than A Regular Wash.</h2>
+        <p class="section-subtitle">
+          Neighborhood automated washes and rushed hand washes leave permanent swirl marks and micro-marring. We operate as an automotive surgery room where precision, chemistry, and craftsmanship rule every step.
+        </p>
+      </div>
+
+      <div class="pillars-grid">
+        
+        <div class="pillar-card">
+          <div class="pillar-icon"><i class="fa-solid fa-flask-vial"></i></div>
+          <h4 class="pillar-title">Premium Products</h4>
+          <p class="pillar-desc">
+            We exclusively use globally renowned professional formulations: Gtechniq, XPEL, Koch-Chemie, Rupes, CarPro, and Swissvax. No generic bulk chemicals.
+          </p>
+        </div>
+
+        <div class="pillar-card">
+          <div class="pillar-icon"><i class="fa-solid fa-certificate"></i></div>
+          <h4 class="pillar-title">Trained Detailers</h4>
+          <p class="pillar-desc">
+            Our technicians are extensively trained and certified in paint correction, rotary jewelling, and precision bulk &amp; template film installation.
+          </p>
+        </div>
+
+        <div class="pillar-card">
+          <div class="pillar-icon"><i class="fa-solid fa-microchip"></i></div>
+          <h4 class="pillar-title">Professional Equipment</h4>
+          <p class="pillar-desc">
+            Rupes BigFoot dual-action polishers, ultrasonic digital paint depth gauges, high-CRI detailing inspection lighting, and steam extraction units.
+          </p>
+        </div>
+
+        <div class="pillar-card">
+          <div class="pillar-icon"><i class="fa-solid fa-bucket"></i></div>
+          <h4 class="pillar-title">Safe Washing Techniques</h4>
+          <p class="pillar-desc">
+            Scratch-free 3-bucket method with grit guards, ultra-plush 1200 GSM microfibers dedicated to single panels, and touchless filtered air drying.
+          </p>
+        </div>
+
+        <div class="pillar-card">
+          <div class="pillar-icon"><i class="fa-solid fa-magnifying-glass"></i></div>
+          <h4 class="pillar-title">Attention To Detail</h4>
+          <p class="pillar-desc">
+            We obsess over door jambs, fuel filler caps, brake calipers, badge recesses, exhaust tips, and individual leather seat perforations.
+          </p>
+        </div>
+
+        <div class="pillar-card">
+          <div class="pillar-icon"><i class="fa-solid fa-shield-virus"></i></div>
+          <h4 class="pillar-title">Advanced Paint Protection</h4>
+          <p class="pillar-desc">
+            Certified clean-room bay with positive-pressure air filtration for bubble-free PPF installation and temperature-controlled ceramic curing.
+          </p>
+        </div>
+
+        <div class="pillar-card">
+          <div class="pillar-icon"><i class="fa-solid fa-file-invoice"></i></div>
+          <h4 class="pillar-title">Transparent Pricing</h4>
+          <p class="pillar-desc">
+            Honest assessments based on your car's verified paint condition. Every quotation includes a detailed written scope of work with zero hidden surprises.
+          </p>
+        </div>
+
+        <div class="pillar-card">
+          <div class="pillar-icon"><i class="fa-solid fa-star"></i></div>
+          <h4 class="pillar-title">Quality-Focused Service</h4>
+          <p class="pillar-desc">
+            We deliberately limit intake to a maximum of 2 vehicles per studio bay each day. We never rush a vehicle to meet a volume quota.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================== -->
+  <!-- OUR PROCESS (5-STAGE TIMELINE)                 -->
+  <!-- ============================================== -->
+  <section class="process-section" id="process">
+    <div class="container">
+      <div class="section-header text-center">
+        <div class="section-tag"><i class="fa-solid fa-route"></i> METHODOLOGY &bull; ZERO SHORTCUTS</div>
+        <h2 class="section-title">The 5-Stage Studio Protocol</h2>
+        <p class="section-subtitle">
+          Every vehicle undergoes our systematic, surgical multi-step restoration before leaving our studio bay.
+        </p>
+      </div>
+
+      <div class="timeline-container">
+        
+        <!-- Step 1 -->
+        <div class="timeline-card">
+          <div class="timeline-number-box">
+            <span class="tl-num">01</span>
+            <div class="tl-pulse"></div>
+          </div>
+          <div class="timeline-content">
+            <div class="tl-tag">STAGE 01 &bull; DIAGNOSTICS</div>
+            <h3 class="tl-title">Comprehensive Inspection</h3>
+            <p class="tl-desc">
+              We inspect the vehicle under high-CRI detailing inspection lighting and record paint thickness across all panels using ultrasonic digital depth gauges to identify thin spots and factory clear coat levels.
+            </p>
+            <ul class="tl-checklist">
+              <li><i class="fa-solid fa-check text-cyan"></i> Digital paint depth mapping (Microns)</li>
+              <li><i class="fa-solid fa-check text-cyan"></i> Scratch &amp; rock-chip defect assessment sheet</li>
+              <li><i class="fa-solid fa-check text-cyan"></i> Consultation with car owner on goals</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="timeline-card">
+          <div class="timeline-number-box">
+            <span class="tl-num">02</span>
+            <div class="tl-pulse"></div>
+          </div>
+          <div class="timeline-content">
+            <div class="tl-tag">STAGE 02 &bull; DECONTAMINATION</div>
+            <h3 class="tl-title">Preparation &amp; Chemical Bath</h3>
+            <p class="tl-desc">
+              Deep cleaning and multi-stage surface decontamination. pH-neutral thick snow foam loosens grime, iron remover dissolves embedded metallic brake dust, and synthetic clay removes stubborn industrial fallout.
+            </p>
+            <ul class="tl-checklist">
+              <li><i class="fa-solid fa-check text-cyan"></i> pH-Neutral snow foam soak &amp; 3-bucket wash</li>
+              <li><i class="fa-solid fa-check text-cyan"></i> Chemical iron fallout &amp; tar removal</li>
+              <li><i class="fa-solid fa-check text-cyan"></i> Fine synthetic clay bar surface smoothing</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Step 3 -->
+        <div class="timeline-card">
+          <div class="timeline-number-box">
+            <span class="tl-num">03</span>
+            <div class="tl-pulse"></div>
+          </div>
+          <div class="timeline-content">
+            <div class="tl-tag">STAGE 03 &bull; RESTORATION</div>
+            <h3 class="tl-title">Precision Paint Correction</h3>
+            <p class="tl-desc">
+              Paint imperfections, swirl marks, oxidation, and scratches are surgically corrected where required. Dual-action machine polishers with graded pads restore optical clarity and deep gloss without thinning your clear coat.
+            </p>
+            <ul class="tl-checklist">
+              <li><i class="fa-solid fa-check text-cyan"></i> Panel taping &amp; sensitive trim masking</li>
+              <li><i class="fa-solid fa-check text-cyan"></i> Heavy compounding for scratch &amp; swirl removal</li>
+              <li><i class="fa-solid fa-check text-cyan"></i> Finishing polish to achieve museum mirror gloss</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="timeline-card">
+          <div class="timeline-number-box">
+            <span class="tl-num">04</span>
+            <div class="tl-pulse"></div>
+          </div>
+          <div class="timeline-content">
+            <div class="tl-tag">STAGE 04 &bull; BARRIER</div>
+            <h3 class="tl-title">Protection &amp; Film Application</h3>
+            <p class="tl-desc">
+              PPF, ceramic coating, or selected treatment is professionally applied. PPF is precision-installed in our positive-pressure clean bay; ceramic coatings are leveled and cross-linked panel by panel.
+            </p>
+            <ul class="tl-checklist">
+              <li><i class="fa-solid fa-check text-cyan"></i> IPA panel wipe down for pure bonding</li>
+              <li><i class="fa-solid fa-check text-cyan"></i> Optical TPU film installation with wrapped edges</li>
+              <li><i class="fa-solid fa-check text-cyan"></i> Multi-layer ceramic or graphene application</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Step 5 -->
+        <div class="timeline-card">
+          <div class="timeline-number-box">
+            <span class="tl-num">05</span>
+            <div class="tl-pulse"></div>
+          </div>
+          <div class="timeline-content">
+            <div class="tl-tag">STAGE 05 &bull; QUALITY ASSURANCE</div>
+            <h3 class="tl-title">Final Inspection &amp; Handover</h3>
+            <p class="tl-desc">
+              Every millimeter is checked before delivery under multi-spectrum lighting. Coatings receive short-wave infrared heat lamp curing. We review aftercare maintenance guidelines with you upon vehicle handover.
+            </p>
+            <ul class="tl-checklist">
+              <li><i class="fa-solid fa-check text-cyan"></i> Short-wave infrared (IR) heat lamp cure</li>
+              <li><i class="fa-solid fa-check text-cyan"></i> 50-Point studio quality handover checklist</li>
+              <li><i class="fa-solid fa-check text-cyan"></i> Client handover &amp; aftercare kit orientation</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================== -->
+  <!-- SERVICE PACKAGES                               -->
+  <!-- ============================================== -->
+  <section class="packages-section" id="packages">
+    <div class="container">
+      <div class="section-header text-center">
+        <div class="section-tag"><i class="fa-solid fa-tags"></i> BESPOKE TREATMENT TIERS</div>
+        <h2 class="section-title">Engineered Service Packages</h2>
+        <p class="section-subtitle">
+          Tailored to your vehicle's specific paint condition and protection expectations. We provide honest written estimates without deceptive fixed rates.
+        </p>
+      </div>
+
+      <div class="packages-grid">
+
+        <!-- Package 1: Essential Care -->
+        <div class="package-card">
+          <div class="package-header">
+            <span class="pkg-category">MAINTENANCE &bull; LEVEL 1</span>
+            <h3 class="pkg-title">ESSENTIAL CARE</h3>
+            <p class="pkg-subtitle">Designed for regular upkeep of luxury vehicles requiring meticulous decontamination and scratch-free maintenance.</p>
+          </div>
+          <div class="package-divider"></div>
+          <div class="package-inclusions">
+            <span class="inc-heading">What's Included:</span>
+            <ul class="pkg-checklist">
+              <li><i class="fa-solid fa-circle-check text-cyan"></i> Premium pH-neutral snow foam bath</li>
+              <li><i class="fa-solid fa-circle-check text-cyan"></i> 3-Bucket scratch-free hand wash</li>
+              <li><i class="fa-solid fa-circle-check text-cyan"></i> Interior vacuum &amp; dashboard wipe</li>
+              <li><i class="fa-solid fa-circle-check text-cyan"></i> Tyre &amp; alloy deep cleaning</li>
+              <li><i class="fa-solid fa-circle-check text-cyan"></i> Streak-free interior &amp; exterior glass</li>
+              <li><i class="fa-solid fa-circle-check text-cyan"></i> Hydrophobic spray sealant (30-day gloss)</li>
+              <li><i class="fa-solid fa-circle-check text-cyan"></i> Warm filtered air blow dry</li>
+            </ul>
+          </div>
+          <div class="package-footer">
+            <a href="#booking" class="btn btn-outline full-width" data-package="Essential Care">Get Price</a>
+            <span class="pkg-turnaround"><i class="fa-regular fa-clock"></i> Approx. 2.5 - 3.5 Hours</span>
+          </div>
+        </div>
+
+        <!-- Package 2: Detailing Pro (MOST POPULAR) -->
+        <div class="package-card featured-popular">
+          <div class="popular-ribbon">
+            <i class="fa-solid fa-fire text-cyan"></i> MOST POPULAR
+          </div>
+          <div class="package-header">
+            <span class="pkg-category">RESTORATION &bull; LEVEL 2</span>
+            <h3 class="pkg-title">DETAILING PRO</h3>
+            <p class="pkg-subtitle">Complete restoration of interior and exterior surfaces with machine polishing to revive depth and mirror shine.</p>
+          </div>
+          <div class="package-divider"></div>
+          <div class="package-inclusions">
+            <span class="inc-heading">Everything in Essential Care, Plus:</span>
+            <ul class="pkg-checklist">
+              <li><i class="fa-solid fa-circle-check text-cyan"></i> Chemical iron fallout &amp; clay bar decontamination</li>
+              <li><i class="fa-solid fa-circle-check text-cyan"></i> 1-Stage machine polishing &amp; paint enhancement</li>
+              <li><i class="fa-solid fa-circle-check text-cyan"></i> Deep interior steam extraction &amp; sanitation</li>
+              <li><i class="fa-solid fa-circle-check text-cyan"></i> Leather seats cleaned &amp; matte conditioned</li>
+              <li><i class="fa-solid fa-circle-check text-cyan"></i> Engine bay cosmetic wipe &amp; dressing</li>
+              <li><i class="fa-solid fa-circle-check text-cyan"></i> 6-Month ceramic spray sealant coat</li>
+              <li><i class="fa-solid fa-circle-check text-cyan"></i> Exhaust tips hand polished</li>
+            </ul>
+          </div>
+          <div class="package-footer">
+            <a href="#booking" class="btn btn-primary full-width pulse-glow" data-package="Detailing Pro">Get Quote</a>
+            <span class="pkg-turnaround"><i class="fa-regular fa-clock"></i> Approx. 1 Full Day</span>
+          </div>
+        </div>
+
+        <!-- Package 3: Ultimate Protection -->
+        <div class="package-card">
+          <div class="package-header">
+            <span class="pkg-category">ARMOR &bull; LEVEL 3</span>
+            <h3 class="pkg-title">ULTIMATE PROTECTION</h3>
+            <p class="pkg-subtitle">The gold standard for supercars and exotic vehicles. Multi-stage paint correction paired with PPF &amp; ceramic matrix.</p>
+          </div>
+          <div class="package-divider"></div>
+          <div class="package-inclusions">
+            <span class="inc-heading">Everything in Detailing Pro, Plus:</span>
+            <ul class="pkg-checklist">
+              <li><i class="fa-solid fa-circle-check text-cyan"></i> Multi-stage paint correction (95%+ swirl removal)</li>
+              <li><i class="fa-solid fa-circle-check text-cyan"></i> PPF / Ceramic coating custom studio consultation</li>
+              <li><i class="fa-solid fa-circle-check text-cyan"></i> Front-end or Full-body self-healing TPU PPF</li>
+              <li><i class="fa-solid fa-circle-check text-cyan"></i> Multi-year 10H Ceramic / Graphene nano-shield</li>
+              <li><i class="fa-solid fa-circle-check text-cyan"></i> Wheel ceramic coating &amp; caliper protection</li>
+              <li><i class="fa-solid fa-circle-check text-cyan"></i> Full windshield rain repellent glass coating</li>
+              <li><i class="fa-solid fa-circle-check text-cyan"></i> Infrared curing lamp treatment &amp; final inspection</li>
+            </ul>
+          </div>
+          <div class="package-footer">
+            <a href="#booking" class="btn btn-outline full-width" data-package="Ultimate Protection">Book Consultation</a>
+            <span class="pkg-turnaround"><i class="fa-regular fa-clock"></i> 2 - 3 Days Studio Time</span>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Interactive Vehicle Size & Scope Estimator Widget -->
+      <div class="estimator-box">
+        <div class="estimator-header">
+          <i class="fa-solid fa-calculator text-cyan"></i>
+          <div>
+            <h4>Quick Studio Turnaround &amp; Scope Estimator</h4>
+            <p>Select your vehicle category to preview recommended treatment and estimated studio timeline:</p>
+          </div>
+        </div>
+        <div class="vehicle-class-pills">
+          <button class="v-pill active" data-vclass="coupe"><i class="fa-solid fa-car"></i> Sports Car / Coupe (e.g. 911, M4)</button>
+          <button class="v-pill" data-vclass="sedan"><i class="fa-solid fa-car-side"></i> Luxury Sedan (e.g. S-Class, RS6)</button>
+          <button class="v-pill" data-vclass="suv"><i class="fa-solid fa-truck-monster"></i> Performance SUV (e.g. G-Wagon, Urus)</button>
+          <button class="v-pill" data-vclass="exotic"><i class="fa-solid fa-jet-fighter"></i> Exotic / Track Spec (e.g. GT3 RS, SVJ)</button>
+        </div>
+        <div class="estimator-result-card" id="estimatorResult">
+          <div class="est-stat">
+            <span class="stat-lbl">Vehicle Profile</span>
+            <span class="stat-v" id="estVehicle">Sports Car / Coupe</span>
+          </div>
+          <div class="est-stat">
+            <span class="stat-lbl">Recommended Package</span>
+            <span class="stat-v text-cyan" id="estPackage">Detailing Pro or Track Pack PPF</span>
+          </div>
+          <div class="est-stat">
+            <span class="stat-lbl">Studio Turnaround</span>
+            <span class="stat-v" id="estTime">1 to 2 Days</span>
+          </div>
+          <div class="est-cta">
+            <a href="#booking" class="btn btn-secondary btn-sm" id="btnApplyEstimate">Inquire For This Car</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============================================== -->
+  <!-- WORK GALLERY (CARS WE'VE TRANSFORMED)          -->
+  <!-- ============================================== -->
+  <section class="gallery-section" id="gallery">
+    <div class="container">
+      <div class="section-header text-center">
+        <div class="section-tag"><i class="fa-solid fa-camera"></i> STUDIO PORTFOLIO</div>
+        <h2 class="section-title">Cars We've Transformed</h2>
+        <p class="section-subtitle">
+          A showcase of prestige automobiles refined in our studio. From track-focused Porsches to flagship Mercedes-AMGs and high-performance BMWs.
+        </p>
+      </div>
+
+      <!-- Gallery Filter Tabs -->
+      <div class="gallery-filter-bar">
+        <button class="g-filter active" data-brand="all">All Vehicles</button>
+        <button class="g-filter" data-brand="porsche">Porsche</button>
+        <button class="g-filter" data-brand="mercedes">Mercedes-AMG</button>
+        <button class="g-filter" data-brand="bmw">BMW M-Power</button>
+        <button class="g-filter" data-brand="audi">Audi RS</button>
+        <button class="g-filter" data-brand="exotics">Exotics &amp; SUVs</button>
+      </div>
+
+      <!-- Gallery Grid -->
+      <div class="gallery-grid" id="galleryGrid">
+
+        <!-- Item 1: Porsche 911 GT3 RS -->
+        <div class="gallery-item" data-brand="porsche">
+          <div class="gallery-card">
+            <img src="https://images.unsplash.com/photo-1580273916550-e323be2ae537?auto=format&fit=crop&w=1000&q=85" alt="Porsche 911 GT3 with mirror finish" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="g-badge">FULL BODY PPF + CERAMIC</span>
+              <h4 class="g-title">Porsche 911 GT3</h4>
+              <p class="g-detail">Full vehicle self-healing 8.5 mil TPU wrap with wrapped edges and 10H ceramic matrix on top.</p>
+              <button class="btn-expand-img" data-img="https://images.unsplash.com/photo-1580273916550-e323be2ae537?auto=format&fit=crop&w=1800&q=85" data-title="Porsche 911 GT3 &bull; Full PPF + Ceramic"><i class="fa-solid fa-expand"></i> Inspect High-Res</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 2: Mercedes-AMG GT -->
+        <div class="gallery-item" data-brand="mercedes">
+          <div class="gallery-card">
+            <img src="https://images.unsplash.com/photo-1617788138017-80ad40651399?auto=format&fit=crop&w=1000&q=85" alt="Mercedes-AMG GT Black Series detailing" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="g-badge">2-STAGE CORRECTION &bull; GRAPHENE</span>
+              <h4 class="g-title">Mercedes-AMG GT</h4>
+              <p class="g-detail">Obsidian Black Metallic restored to 99% swirl-free clarity. Graphene coating applied for deep wet gloss.</p>
+              <button class="btn-expand-img" data-img="https://images.unsplash.com/photo-1617788138017-80ad40651399?auto=format&fit=crop&w=1800&q=85" data-title="Mercedes-AMG GT &bull; 2-Stage Correction"><i class="fa-solid fa-expand"></i> Inspect High-Res</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 3: BMW M4 Competition -->
+        <div class="gallery-item" data-brand="bmw">
+          <div class="gallery-card">
+            <img src="https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=1000&q=85" alt="BMW M4 Competition detailing" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="g-badge">STEALTH MATTE CONVERSION</span>
+              <h4 class="g-title">BMW M4 Competition</h4>
+              <p class="g-detail">Full stealth satin-matte TPU PPF conversion with gloss black accents preserved. Ceramic on wheels.</p>
+              <button class="btn-expand-img" data-img="https://images.unsplash.com/photo-1555215695-3004980ad54e?auto=format&fit=crop&w=1800&q=85" data-title="BMW M4 Competition &bull; Stealth Matte PPF"><i class="fa-solid fa-expand"></i> Inspect High-Res</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 4: Audi R8 V10 -->
+        <div class="gallery-item" data-brand="audi">
+          <div class="gallery-card">
+            <img src="https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?auto=format&fit=crop&w=1000&q=85" alt="Audi R8 in detailing bay" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="g-badge">TRACK PACK PPF &bull; INTERIOR DETAIL</span>
+              <h4 class="g-title">Audi R8 V10 Performance</h4>
+              <p class="g-detail">Full front bumper, carbon side blades, hood, and mirrors wrapped in optical film. Alcantara steam cleaned.</p>
+              <button class="btn-expand-img" data-img="https://images.unsplash.com/photo-1603584173870-7f23fdae1b7a?auto=format&fit=crop&w=1800&q=85" data-title="Audi R8 V10 &bull; Track Pack PPF"><i class="fa-solid fa-expand"></i> Inspect High-Res</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 5: Mercedes G-Wagon -->
+        <div class="gallery-item" data-brand="mercedes">
+          <div class="gallery-card">
+            <img src="https://images.unsplash.com/photo-1520031441872-265e4ff70366?auto=format&fit=crop&w=1000&q=85" alt="Mercedes-AMG G63 in matte finish" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="g-badge">MAGNO MATTE PPF &bull; LEATHER SHIELD</span>
+              <h4 class="g-title">Mercedes-AMG G63</h4>
+              <p class="g-detail">Custom cut matte film protecting delicate factory Magno paint. Ceramic leather barrier on designo seats.</p>
+              <button class="btn-expand-img" data-img="https://images.unsplash.com/photo-1520031441872-265e4ff70366?auto=format&fit=crop&w=1800&q=85" data-title="Mercedes G63 &bull; Magno Matte Protection"><i class="fa-solid fa-expand"></i> Inspect High-Res</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Item 6: Range Rover Autobiography -->
+        <div class="gallery-item" data-brand="exotics">
+          <div class="gallery-card">
+            <img src="https://images.unsplash.com/photo-1563720223523-491ff04651de?auto=format&fit=crop&w=1000&q=85" alt="Range Rover detailing" loading="lazy">
+            <div class="gallery-overlay">
+              <span class="g-badge">DETAILING PRO &bull; GLASS COATING</span>
+              <h4 class="g-title">Range Rover Autobiography</h4>
+              <p class="g-detail">Full exterior jewelling correction, 22-inch wheel ceramic coating, and full panoramic glass rain repellent.</p>
+              <button class="btn-expand-img" data-img="https://images.unsplash.com/photo-1563720223523-491ff04651de?auto=format&fit=crop&w=1800&q=85" data-title="Range Rover &bull; Detailing Pro"><i class="fa-solid fa-expand"></i> Inspect High-Res</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- LIGHTBOX MODAL FOR GALLERY INSPECTION -->
+  <div class="lightbox-modal" id="lightboxModal">
+    <div class="lightbox-content">
+      <button class="lightbox-close" id="lightboxClose">&times;</button>
+      <img src="" alt="Studio Car Detail" id="lightboxImage">
+      <div class="lightbox-caption" id="lightboxCaption">Vehicle Detail</div>
+    </div>
+  </div>
+
+  <!-- ============================================== -->
+  <!-- TESTIMONIALS SECTION                           -->
+  <!-- ============================================== -->
+  <section class="testimonials-section" id="testimonials">
+    <div class="container">
+      <div class="section-header text-center">
+        <div class="section-tag"><i class="fa-solid fa-comments"></i> CLIENT EXPERIENCES</div>
+        <h2 class="section-title">Trusted By Automotive Enthusiasts</h2>
+        <p class="section-subtitle">
+          See what discerning supercar collectors and luxury vehicle owners say about our attention to detail.
+        </p>
+        <span class="demo-label-pill"><i class="fa-solid fa-info-circle text-cyan"></i> Demo / Placeholder Client Reviews &bull; Ready for your verified customer feedback</span>
+      </div>
+
+      <div class="testimonials-grid">
+        
+        <div class="testimonial-card">
+          <div class="t-rating">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          </div>
+          <p class="t-text">
+            &ldquo;Brought my Basalt Black 911 GT3 straight from the showroom floor for a full body PPF and ceramic package. The edge wrapping is completely invisible—people genuinely think it’s bare factory paint. Outstanding craftsmanship.&rdquo;
+          </p>
+          <div class="t-author">
+            <div class="author-avatar"><i class="fa-solid fa-user-tie"></i></div>
+            <div class="author-meta">
+              <span class="author-name">Demo Review &bull; Porsche 911 GT3 Owner</span>
+              <span class="author-service">Full Body XPEL PPF + 10H Ceramic Coating</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="t-rating">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          </div>
+          <p class="t-text">
+            &ldquo;My G63 had awful swirl marks from the previous owner running it through automated car washes. Obsidian performed a 2-stage paint correction that revived the metallic depth completely. It looks better than new.&rdquo;
+          </p>
+          <div class="t-author">
+            <div class="author-avatar"><i class="fa-solid fa-user-shield"></i></div>
+            <div class="author-meta">
+              <span class="author-name">Demo Review &bull; Mercedes-AMG G63 Owner</span>
+              <span class="author-service">2-Stage Paint Correction &amp; Graphene Shield</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonial-card">
+          <div class="t-rating">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          </div>
+          <p class="t-text">
+            &ldquo;The stealth matte conversion on my Isle of Man Green M4 is breathtaking. The team sent photo updates every day during the clean-room installation. True automotive perfectionists.&rdquo;
+          </p>
+          <div class="t-author">
+            <div class="author-avatar"><i class="fa-solid fa-car-rear"></i></div>
+            <div class="author-meta">
+              <span class="author-name">Demo Review &bull; BMW M4 Competition Owner</span>
+              <span class="author-service">Stealth Satin PPF &amp; Interior Ceramic</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================== -->
+  <!-- BOOKING & LEAD GENERATION SECTION              -->
+  <!-- ============================================== -->
+  <section class="booking-section" id="booking">
+    <div class="container">
+      <div class="booking-wrapper">
+        
+        <!-- Left: Studio Details & Quick Inquiry Contacts -->
+        <div class="booking-info-box">
+          <div class="section-tag"><i class="fa-solid fa-calendar-days"></i> STUDIO RESERVATIONS</div>
+          <h2 class="booking-headline">Ready To Transform Your Car?</h2>
+          <p class="booking-sub">
+            Tell us what your vehicle needs and our senior detailing technicians will recommend the right treatment, inspect your paint condition, and schedule your appointment.
+          </p>
+
+          <div class="contact-methods">
+            
+            <a href="https://wa.me/18005558989?text=Hello%20Obsidian%20Auto%20Lab,%20I%20would%20like%20to%20book%20a%20consultation%20for%20my%20car." target="_blank" rel="noopener" class="contact-channel-card whatsapp-channel">
+              <div class="channel-icon"><i class="fa-brands fa-whatsapp"></i></div>
+              <div class="channel-info">
+                <span class="channel-title">WhatsApp VIP Line</span>
+                <span class="channel-desc">Instant replies &bull; Send car photos directly</span>
+                <strong class="channel-cta">Start Chat Now <i class="fa-solid fa-arrow-right"></i></strong>
+              </div>
+            </a>
+
+            <a href="tel:+18005558989" class="contact-channel-card phone-channel">
+              <div class="channel-icon"><i class="fa-solid fa-phone"></i></div>
+              <div class="channel-info">
+                <span class="channel-title">Direct Studio Phone</span>
+                <span class="channel-desc">Mon - Sat: 9:00 AM - 7:00 PM</span>
+                <strong class="channel-cta">+1 (800) 555-8989</strong>
+              </div>
+            </a>
+
+            <div class="contact-channel-card address-channel">
+              <div class="channel-icon"><i class="fa-solid fa-location-dot"></i></div>
+              <div class="channel-info">
+                <span class="channel-title">Studio Location</span>
+                <span class="channel-desc">Obsidian Auto Lab, Bay 4, Luxury Automotive District</span>
+                <strong class="channel-cta">Secured &amp; Climate-Controlled Facility</strong>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="studio-guarantee-badge">
+            <i class="fa-solid fa-shield-halved text-cyan"></i>
+            <div>
+              <strong>Strictly 2 Vehicles Per Day</strong>
+              <span>Your car will never be rushed or placed in an automated assembly line.</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Interactive Booking Form -->
+        <div class="booking-form-box">
+          <form class="lead-form" id="bookingForm" novalidate>
+            <h3 class="form-title">Request Free Studio Consultation</h3>
+            <p class="form-subtitle">Fill in your vehicle details below for a customized quotation.</p>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="clientName">Your Full Name <span class="required">*</span></label>
+                <div class="input-with-icon">
+                  <i class="fa-solid fa-user"></i>
+                  <input type="text" id="clientName" name="clientName" placeholder="e.g. Alexander Vance" required>
+                </div>
+                <span class="field-error" id="nameError">Please enter your name</span>
+              </div>
+
+              <div class="form-group">
+                <label for="clientPhone">Phone / WhatsApp Number <span class="required">*</span></label>
+                <div class="input-with-icon">
+                  <i class="fa-solid fa-phone"></i>
+                  <input type="tel" id="clientPhone" name="clientPhone" placeholder="e.g. +1 (555) 234-5678" required>
+                </div>
+                <span class="field-error" id="phoneError">Please enter a valid phone number</span>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="carMakeModel">Car Make &amp; Model <span class="required">*</span></label>
+                <div class="input-with-icon">
+                  <i class="fa-solid fa-car"></i>
+                  <input type="text" id="carMakeModel" name="carMakeModel" placeholder="e.g. 2024 Porsche 911 GT3" required>
+                </div>
+                <span class="field-error" id="carError">Please specify your car make and model</span>
+              </div>
+
+              <div class="form-group">
+                <label for="carYearColor">Year / Paint Color (Optional)</label>
+                <div class="input-with-icon">
+                  <i class="fa-solid fa-palette"></i>
+                  <input type="text" id="carYearColor" name="carYearColor" placeholder="e.g. 2023 / Jet Black Metallic">
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="serviceSelect">Select Required Service <span class="required">*</span></label>
+              <div class="select-with-icon">
+                <i class="fa-solid fa-layer-group"></i>
+                <select id="serviceSelect" name="serviceSelect" required>
+                  <option value="">-- Choose Desired Treatment --</option>
+                  <option value="Paint Protection Film (PPF)">Paint Protection Film (PPF) — Full or Track Pack</option>
+                  <option value="Ceramic Coating">Ceramic Coating (10H Multi-Year Quartz)</option>
+                  <option value="Paint Correction">Paint Correction (Swirl & Scratch Removal)</option>
+                  <option value="Detailing Pro Package">Detailing Pro (Full Interior & Exterior)</option>
+                  <option value="Ultimate Protection Package">Ultimate Protection (PPF + Ceramic + Interior)</option>
+                  <option value="Premium Car Wash">Premium Safe Decontamination Wash</option>
+                  <option value="Interior Detailing">Interior Deep Detailing & Leather Care</option>
+                  <option value="Graphene Coating">Graphene Advanced Coating</option>
+                  <option value="Headlight Restoration">Headlight Restoration</option>
+                  <option value="Alloy & Tyre Detailing">Alloy & Wheel Ceramic Protection</option>
+                  <option value="Windshield / Glass Coating">Windshield & Glass Hydrophobic Coating</option>
+                  <option value="Engine Bay Detailing">Engine Bay Detailing</option>
+                  <option value="Other / Custom Package">Other / Custom Requirement</option>
+                </select>
+              </div>
+              <span class="field-error" id="serviceError">Please select a service</span>
+            </div>
+
+            <div class="form-group">
+              <label for="clientMessage">Specific Concerns or Vehicle Notes</label>
+              <textarea id="clientMessage" name="clientMessage" rows="3" placeholder="Tell us about swirl marks, rock chips, timeline, or if you prefer a showroom studio visit..."></textarea>
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="form-actions">
+              <button type="submit" class="btn btn-primary btn-lg full-width" id="submitFormBtn">
+                <span>Get Free Consultation</span>
+                <i class="fa-solid fa-paper-plane"></i>
+              </button>
+
+              <button type="button" class="btn btn-whatsapp full-width" id="btnSendViaWhatsApp">
+                <i class="fa-brands fa-whatsapp"></i> Send Booking Details Via WhatsApp
+              </button>
+            </div>
+
+            <div class="form-privacy-note">
+              <i class="fa-solid fa-lock text-cyan"></i> Your information is kept 100% confidential. No spam, ever.
+            </div>
+          </form>
+
+          <!-- Form Success State -->
+          <div class="form-success-card" id="formSuccessCard" style="display: none;">
+            <div class="success-icon"><i class="fa-solid fa-circle-check"></i></div>
+            <h3>Consultation Request Received!</h3>
+            <p>Thank you, <strong id="successName">Client</strong>. Our studio concierge has received your request for your <strong id="successCar">Vehicle</strong>.</p>
+            <p class="success-sub">We will reach out to you via WhatsApp / phone shortly to confirm your paint assessment appointment.</p>
+            <a href="https://wa.me/18005558989" target="_blank" class="btn btn-whatsapp"><i class="fa-brands fa-whatsapp"></i> Speed Up On WhatsApp</a>
+            <button class="btn btn-outline btn-sm" id="btnResetForm">Submit Another Car</button>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================== -->
+  <!-- FOOTER                                         -->
+  <!-- ============================================== -->
+  <footer class="studio-footer">
+    <div class="container footer-container">
+      
+      <div class="footer-grid">
+        
+        <!-- Brand Column -->
+        <div class="footer-col brand-col">
+          <div class="footer-brand">
+            <div class="logo-emblem">
+              <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <polygon points="50,6 94,27 94,73 50,94 6,73 6,27" stroke="#00D2FF" stroke-width="3.5" fill="#0E121A"/>
+                <polygon points="50,22 78,36 78,64 50,78 22,64 22,36" stroke="rgba(255,255,255,0.7)" stroke-width="1.5" fill="none"/>
+                <circle cx="50" cy="50" r="8" fill="#00D2FF"/>
+              </svg>
+            </div>
+            <div class="logo-text-block">
+              <span class="brand-name">OBSIDIAN</span>
+              <span class="brand-sub">AUTO LAB &bull; DETAILING STUDIO</span>
+            </div>
+          </div>
+          <p class="footer-tagline">
+            We don't simply wash cars. We restore, enhance, and protect them. Operating at the highest tier of automotive surface craftsmanship.
+          </p>
+          <div class="footer-social-links">
+            <a href="#hero" class="social-circle" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#hero" class="social-circle" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#hero" class="social-circle" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="#hero" class="social-circle" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+          </div>
+        </div>
+
+        <!-- Services Links -->
+        <div class="footer-col">
+          <h4 class="footer-title">Major Services</h4>
+          <ul class="footer-links">
+            <li><a href="#ppf-feature">Paint Protection Film (PPF)</a></li>
+            <li><a href="#ceramic-feature">10H Ceramic Coating</a></li>
+            <li><a href="#interactive-stage">Paint Correction &amp; Jewelling</a></li>
+            <li><a href="#services">Safe Exterior Snow Wash</a></li>
+            <li><a href="#services">Interior Steam Detailing</a></li>
+            <li><a href="#services">Graphene Matrix Protection</a></li>
+            <li><a href="#services">Headlight Restoration</a></li>
+            <li><a href="#services">Wheel &amp; Caliper Ceramic</a></li>
+          </ul>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-col">
+          <h4 class="footer-title">Studio Navigation</h4>
+          <ul class="footer-links">
+            <li><a href="#interactive-stage">Transformation Lab</a></li>
+            <li><a href="#before-after">Before &amp; After Showcase</a></li>
+            <li><a href="#why-us">Why Choose Obsidian</a></li>
+            <li><a href="#process">Our 5-Stage Protocol</a></li>
+            <li><a href="#packages">Service Packages</a></li>
+            <li><a href="#gallery">Portfolio of Transformed Cars</a></li>
+            <li><a href="#testimonials">Client Feedback</a></li>
+            <li><a href="#booking">Book Free Paint Assessment</a></li>
+          </ul>
+        </div>
+
+        <!-- Contact & Business Hours -->
+        <div class="footer-col">
+          <h4 class="footer-title">Studio Contact</h4>
+          <ul class="footer-contact-info">
+            <li>
+              <i class="fa-solid fa-location-dot text-cyan"></i>
+              <span>Bay 4, Luxury Automotive District, State-of-the-Art Clean Bay Facility</span>
+            </li>
+            <li>
+              <i class="fa-solid fa-phone text-cyan"></i>
+              <a href="tel:+18005558989">+1 (800) 555-8989</a>
+            </li>
+            <li>
+              <i class="fa-brands fa-whatsapp text-cyan"></i>
+              <a href="https://wa.me/18005558989" target="_blank">+1 (800) 555-8989 (WhatsApp VIP)</a>
+            </li>
+            <li>
+              <i class="fa-solid fa-envelope text-cyan"></i>
+              <a href="mailto:concierge@obsidianautolab.demo">concierge@obsidianautolab.demo</a>
+            </li>
+            <li>
+              <i class="fa-regular fa-clock text-cyan"></i>
+              <span>Mon &ndash; Sat: 9:00 AM &ndash; 7:00 PM<br>Sunday: By Private VIP Appointment</span>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <div class="footer-copy">
+          &copy; 2026 Obsidian Auto Lab. All Rights Reserved. Luxury Automotive Detailing, PPF &amp; Ceramic Coating Studio Demo.
+        </div>
+        <div class="footer-legal">
+          <span>XPEL &bull; Gtechniq &bull; Koch-Chemie &bull; Rupes Certified Standards</span>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- MOBILE STICKY BOTTOM BAR (CRITICAL FOR INQUIRY CONVERSIONS) -->
+  <aside class="mobile-sticky-action-bar" aria-label="Quick mobile booking actions">
+    <a href="tel:+18005558989" class="mobile-action-btn phone">
+      <i class="fa-solid fa-phone"></i>
+      <span>Call Studio</span>
+    </a>
+    <a href="https://wa.me/18005558989?text=Hello%20Obsidian%20Auto%20Lab,%20I'm%20inquiring%20from%20my%20mobile%20about%20detailing%20my%20car." target="_blank" rel="noopener" class="mobile-action-btn whatsapp">
+      <i class="fa-brands fa-whatsapp"></i>
+      <span>WhatsApp</span>
+    </a>
+    <a href="#booking" class="mobile-action-btn book">
+      <i class="fa-solid fa-calendar-check"></i>
+      <span>Book Now</span>
+    </a>
+  </aside>
+
+  <!-- FLOATING WHATSAPP BUTTON (DESKTOP) -->
+  <a href="https://wa.me/18005558989?text=Hello%20Obsidian%20Auto%20Lab,%20I%20would%20like%20to%20inquire%20about%20a%20detailing%20quote." target="_blank" rel="noopener" class="desktop-floating-whatsapp" aria-label="Chat with studio on WhatsApp">
+    <div class="whatsapp-pulse"></div>
+    <i class="fa-brands fa-whatsapp"></i>
+    <span class="whatsapp-tooltip">Chat with Detailing Specialist &bull; Online</span>
+  </a>
+
+  <!-- SCRIPT -->
+  <script src="script.js"></script>
+</body>
+</html>
